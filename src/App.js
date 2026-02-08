@@ -72,22 +72,21 @@ export default function WeatherApp() {
 
         <footer className="footer">
           <p>
-            This project was coded by Laura and is open‑sourced on{" "}
+            This project was coded by Laura and is open‑sourced on {""}
             <a
-              href="https://github.com/dashboard"
+              href="https://github.com/Laura-html/weather-react"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
-              GitHub{" "}
-            </a>{" "}
-            and hosted on{" "}
+              GitHub {""}
+            </a>
+            and hosted on {""}
             <a
               href="https://weather-react-003.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Netlify
+              Netlify.
             </a>
             .
           </p>
