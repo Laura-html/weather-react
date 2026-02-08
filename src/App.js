@@ -7,6 +7,11 @@ export default function WeatherApp() {
   return (
     <div className="weather-app">
       <header className="header">
+        <img
+          src="/.images/SheCodes-logo.png"
+          className="logo"
+          alt="SheCodes logo"
+        />
         <form className="search-form">
           <input
             type="search"
@@ -22,8 +27,8 @@ export default function WeatherApp() {
       <main>
         <div className="current-weather">
           <h1 className="city">San Francisco</h1>
-          <p className="date-time">Saturday 14:29</p>
-          <p className="description">scattered clouds</p>
+          <div className="date-time">Saturday 14:29</div>
+          <div className="description">scattered clouds</div>
 
           <div className="weather-details">
             <div className="temperature">

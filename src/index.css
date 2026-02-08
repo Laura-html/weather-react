@@ -12,6 +12,9 @@
   margin-bottom: 20px;
 }
 
+.logo {
+  display: block;
+}
 .search-form {
   display: flex;
   justify-content: center;
@@ -36,7 +39,7 @@
 
 .current-weather {
   margin-bottom: 30px;
-  display: block;
+  text-align: left;
 }
 
 .city {
@@ -48,13 +51,11 @@
 .description {
   font-size: 18px;
   color: #777;
+  text-align: left;
 }
 
 .weather-details {
-  display: flex;
   text-align: right;
-  justify-content: center;
-  align-items: center;
   gap: 30px;
   margin-top: 20px;
 }
