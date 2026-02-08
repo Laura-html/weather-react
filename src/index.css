@@ -35,8 +35,8 @@
 }
 
 .current-weather {
-  text-align: center;
   margin-bottom: 30px;
+  display: block;
 }
 
 .city {
@@ -52,6 +52,7 @@
 
 .weather-details {
   display: flex;
+  text-align: right;
   justify-content: center;
   align-items: center;
   gap: 30px;
