@@ -9,7 +9,7 @@ export default function WeatherApp() {
       <div className="weather-app">
         <header className="header">
           <img
-            src="/.images/SheCodes-logo.png"
+            src="/images/SheCodes-logo.png"
             className="logo"
             alt="SheCodes logo"
           />
@@ -76,7 +76,7 @@ export default function WeatherApp() {
             <a
               href="https://github.com/dashboard"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               GitHub{" "}
@@ -85,7 +85,7 @@ export default function WeatherApp() {
             <a
               href="https://weather-react-003.netlify.app/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Netlify
             </a>

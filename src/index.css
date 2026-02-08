@@ -17,6 +17,8 @@ body {
 
 .logo {
   display: block;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .search-form {
