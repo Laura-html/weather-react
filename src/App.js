@@ -1,13 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-import axios from "axios";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 export default function WeatherApp() {
   return (
     <div className="weather-app">
       <header className="header">
+        <img
+          src="/.images/small-logo.jpg"
+          className="logo"
+          alt="SheCodes logo"
+        />
         <form className="search-form">
           <input
             type="search"
