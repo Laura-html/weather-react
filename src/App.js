@@ -25,25 +25,26 @@ export default function WeatherApp() {
       </header>
 
       <main>
-        <div className="current-weather">
-          <h1 className="city">San Francisco</h1>
-          <div className="date-time">Saturday 14:29</div>
-          <div className="description">scattered clouds</div>
+        <div className="main-weather">
+          <div className="current-weather">
+            <h1 className="city">San Francisco</h1>
+            <div className="date-time">Saturday 14:29, </div>
+            <div className="description">scattered clouds</div>
+            <div className="extra-info">
+              <div>
+                Humidity: <span className="humidity">84%</span>
+              </div>
+              <div>
+                Wind: <span className="wind">4.02 km/h</span>
+              </div>
+            </div>
+          </div>
 
           <div className="weather-details">
             <div className="temperature">
-              <FontAwesomeIcon icon={faCloudSun} size="2x" />
+              <FontAwesomeIcon icon={faCloudSun} size="1px" />
               <span className="temp-value">11</span>
               <span className="temp-unit">°C</span>
-            </div>
-
-            <div className="extra-info">
-              <p>
-                Humidity: <strong>84%</strong>
-              </p>
-              <p>
-                Wind: <strong>4.02 km/h</strong>
-              </p>
             </div>
           </div>
         </div>
@@ -58,7 +59,7 @@ export default function WeatherApp() {
           ].map((item, index) => (
             <div className="forecast-day" key={index}>
               <div className="forecast-name">{item.day}</div>
-              <FontAwesomeIcon icon={faCloudSun} size="1x" />
+              <FontAwesomeIcon icon={faCloudSun} size="2x" />
               <div className="forecast-temps">
                 <span className="max">{item.max}°</span>
                 <span className="min">{item.min}°</span>
