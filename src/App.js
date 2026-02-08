@@ -5,11 +5,6 @@ export default function WeatherApp() {
   return (
     <div className="weather-app">
       <header className="header">
-        <img
-          src="/.images/small-logo.jpg"
-          className="logo"
-          alt="SheCodes logo"
-        />
         <form className="search-form">
           <input
             type="search"
